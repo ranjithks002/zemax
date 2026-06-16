@@ -43,7 +43,7 @@ Industrial inspection lenses rarely operate in climate-controlled cleanrooms. Th
 | **10°** | 9.570 µm | 10.862 µm | Minimal drift due to localized focal plane alignment. |
 | **15° (Corner)** | 14.769 µm | 19.247 µm | Asymmetric flare growth; amplified off-axis coma. |
 
-Thermal Conclusion:** The microscopic structural expansions heavily impact wave-front propagation, primarily manifesting as systematic focus drift[cite: 1752]. Deploying this imaging system on a hot factory floor requires an active optomechanical back-focus compensator or a low-expansion housing material to mitigate the 40°C thermal defocus blur.
+Thermal Conclusion:** The microscopic structural expansions heavily impact wave-front propagation, primarily manifesting as systematic focus drift. Deploying this imaging system on a hot factory floor requires an active optomechanical back-focus compensator or a low-expansion housing material to mitigate the 40°C thermal defocus blur.
 
 ![40C Spot Diagram](Simulation_Plots/40C_Spot_Diagram.png)
 
