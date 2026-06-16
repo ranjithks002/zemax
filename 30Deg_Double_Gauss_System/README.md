@@ -23,7 +23,7 @@ The system leverages a Double-Gauss architecture with an internal aperture stop 
 ---
 
 ## 2. Manufacturing Tolerance Analysis
-To evaluate high-volume factory yield predictability, a 500-trial Monte Carlo simulation was executed across three separate fabrication tiers. [cite_start]Mechanical barrel misalignments—specifically element decenters (`TSDX`/`TSDY`) and element tilts (`TSTX`/`TSTY`)—were identified as the dominant "worst offenders" driving off-axis image degradation[cite: 1554, 1556].
+To evaluate high-volume factory yield predictability, a 500-trial Monte Carlo simulation was executed across three separate fabrication tiers. Mechanical barrel misalignments - specifically element decenters (`TSDX`/`TSDY`) and element tilts (`TSTX`/`TSTY`)—were identified as the dominant "worst offenders" driving off-axis image degradation.
 
 | Manufacturing Tier | Nominal On-Axis Spot | 90% Production Yield Spot Size | Viability Verdict |
 | :--- | :--- | :--- | :--- |
@@ -34,7 +34,7 @@ To evaluate high-volume factory yield predictability, a 500-trial Monte Carlo si
 ---
 
 ## 3. Environmental Thermal Sweep (20°C vs 40°C)
-Industrial inspection lenses rarely operate in climate-controlled cleanrooms. [cite_start]The system was evaluated against a thermal delta of +20°C (transitioning from a 20°C baseline to a 40°C unconditioned factory floor) to observe the impact of geometric expansion and refractive index shifts (dn/dT)[cite: 1659].
+Industrial inspection lenses rarely operate in climate-controlled cleanrooms. The system was evaluated against a thermal delta of +20°C (transitioning from a 20°C baseline to a 40°C unconditioned factory floor) to observe the impact of geometric expansion and refractive index shifts (dn/dT).
 
 | Field Angle | 20°C Baseline RMS Spot | 40°C Heated RMS Spot | Thermal Degradation Observation |
 | :--- | :--- | :--- | :--- |
@@ -43,7 +43,7 @@ Industrial inspection lenses rarely operate in climate-controlled cleanrooms. [c
 | **10°** | 9.570 µm | 10.862 µm | Minimal drift due to localized focal plane alignment. |
 | **15° (Corner)** | 14.769 µm | 19.247 µm | Asymmetric flare growth; amplified off-axis coma. |
 
-[cite_start]**Thermal Conclusion:** The microscopic structural expansions heavily impact wave-front propagation, primarily manifesting as systematic focus drift[cite: 1752]. Deploying this imaging system on a hot factory floor requires an active optomechanical back-focus compensator or a low-expansion housing material to mitigate the 40°C thermal defocus blur.
+Thermal Conclusion:** The microscopic structural expansions heavily impact wave-front propagation, primarily manifesting as systematic focus drift[cite: 1752]. Deploying this imaging system on a hot factory floor requires an active optomechanical back-focus compensator or a low-expansion housing material to mitigate the 40°C thermal defocus blur.
 
 ![40C Spot Diagram](Simulation_Plots/40C_Spot_Diagram.png)
 
