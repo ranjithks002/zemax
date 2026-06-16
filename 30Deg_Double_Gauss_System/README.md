@@ -2,16 +2,16 @@
 
 An optimized 4-element industrial machine vision lens designed using Ansys Zemax OpticStudio 2026. This project bridges the gap between theoretical lens optimization, manufacturing viability (Monte Carlo yield analysis), and environmental ruggedness.
 
-## 🔬 1. Nominal Optical Performance
+##  1. Nominal Optical Performance
 * **Focal Length:** 25 mm 
 * **Total Field of View (FOV):** 60° (30° Half-FOV)
 * **Aperture Speed:** f/2.5
 
-![3D Layout View](Simulation_Plots/3d_layout_view.png)
+![2D Layout View](30Deg_Double_Gauss_System/Simulation_Plots_and_Layouts/Layouts/2D Layout.png)
 
 ---
 
-## 🏭 2. Manufacturing Tolerance Analysis (500-Trial Monte Carlo)
+##  2. Manufacturing Tolerance Analysis (500-Trial Monte Carlo)
 To evaluate high-volume factory yield predictability, a 500-trial Monte Carlo simulation was executed across three separate fabrication tiers. Element decenters (`TSDX/TSDY`) and element tilts (`TSTX/TSTY`) were identified as the dominant performance gatekeepers.
 
 | Manufacturing Tier | Nominal On-Axis Spot | 90% Production Yield Spot Size | Back-Focus Focus Shift |
@@ -24,7 +24,7 @@ To evaluate high-volume factory yield predictability, a 500-trial Monte Carlo si
 
 ---
 
-## 🌡️ 3. Environmental Thermal Sweep (20°C vs 60°C)
+##  3. Environmental Thermal Sweep (20°C vs 60°C)
 The system was evaluated against an environmental delta of +40°C to simulate an unconditioned factory conveyor line environment. Microscopic thermal expansions and glass material index shifts ($\text{d}n/\text{d}T$) induce systematic thermal defocus:
 
 * **20°C Baseline On-Axis Spot:** 8.501 µm
@@ -33,6 +33,6 @@ The system was evaluated against an environmental delta of +40°C to simulate an
 
 ---
 
-## 🛠️ How to Open the Files
+##  How to Open the Files
 1. Download the files inside the `LENS_Data_Files/` folder.
 2. Open using **Ansys Zemax OpticStudio (Sequential Mode)**.
