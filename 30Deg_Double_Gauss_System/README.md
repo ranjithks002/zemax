@@ -7,7 +7,7 @@ An optimized 4-element industrial machine vision lens designed using Ansys Zemax
 * **Total Field of View (FOV):** 60° (30° Half-FOV)
 * **Aperture Speed:** f/2.5
 
-![2D Layout View](2D Layout.png)
+![2D Layout View](Layouts/2D Layout.png)
 
 ---
 
