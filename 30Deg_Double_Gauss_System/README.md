@@ -15,10 +15,10 @@ The system leverages a Double-Gauss architecture with an internal aperture stop 
 * **Contrast (FFT MTF) & Aberrations:** The Ray Fan plots display balanced S-curves indicative of well-corrected spherical aberration, supporting high spatial frequency contrast across the sensor plane.
 
 ![2D Layout View](Simulation_Plots_and_Layouts/Layouts/2DLayout.png)
-![Nominal Spot Diagram](Simulation_Plots/Nominal_Spot_Diagram.png)
-![FFT MTF](Simulation_Plots/FFT_MTF.png)
-![Field Curvature vs Distortion](Simulation_Plots/Field_Curvature_vs_Distortion.png)
-![Ray Fan](Simulation_Plots/Ray_Fan.png)
+![Nominal Spot Diagram](Simulation_Plots_and_Layouts/Layouts/NominalSpotDiagram.png)
+![FFT MTF](Simulation_Plots_and_Layouts/Simulation_plots/FFTMTF.png)
+![Field Curvature vs Distortion](Simulation_Plots_and_Layouts/Simulation_plots/FieldCurvature_vs_Distortion.png)
+![Ray Fan](Simulation_Plots_and_Layouts/Simulation_plots/RayFan.png)
 
 ---
 
@@ -45,7 +45,7 @@ Industrial inspection lenses rarely operate in climate-controlled cleanrooms. Th
 
 Thermal Conclusion:** The microscopic structural expansions heavily impact wave-front propagation, primarily manifesting as systematic focus drift. Deploying this imaging system on a hot factory floor requires an active optomechanical back-focus compensator or a low-expansion housing material to mitigate the 40°C thermal defocus blur.
 
-![40C Spot Diagram](Simulation_Plots/40C_Spot_Diagram.png)
+![40C Spot Diagram](Simulation_Plots_and_Layouts/Layouts/40CSpotDiagram.png)
 
 ---
 
