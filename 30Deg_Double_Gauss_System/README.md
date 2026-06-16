@@ -14,7 +14,7 @@ The system leverages a Double-Gauss architecture with an internal aperture stop 
 * **Distortion & Field Curvature:** Maximum geometric distortion is strictly controlled at **1.0284%**, satisfying the stringent non-warping requirements of automated inspection software. Field curvature is exceptionally flat (Sagittal = 0.298 mm, Tangential = 0.395 mm).
 * **Contrast (FFT MTF) & Aberrations:** The Ray Fan plots display balanced S-curves indicative of well-corrected spherical aberration, supporting high spatial frequency contrast across the sensor plane.
 
-![2D Layout View](30Deg_Double_Gauss_System/Simulation_Plots_and_Layouts/Layouts/2DLayout.png)
+![2D Layout View](Simulation_Plots_and_Layouts/Layouts/2DLayout.png)
 ![Nominal Spot Diagram](Simulation_Plots/Nominal_Spot_Diagram.png)
 ![FFT MTF](Simulation_Plots/FFT_MTF.png)
 ![Field Curvature vs Distortion](Simulation_Plots/Field_Curvature_vs_Distortion.png)
